@@ -1,0 +1,1158 @@
+(PCB Ampl15i
+ (parser
+  (host_cad ARES)
+  (host_version 8.10 SP0)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -100.10160 39.89840 100.10160 100.10160))
+  (boundary (path signal 0.20320 -100.00000 100.00000 100.00000 100.00000))
+  (boundary (path signal 0.20320 -100.00000 100.00000 -100.00000 40.00000))
+  (boundary (path signal 0.20320 -100.00000 40.00000 100.00000 40.00000))
+  (boundary (path signal 0.20320 100.00000 40.00000 100.00000 100.00000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction vertical))
+  (grid via  0.63500)
+  (grid wire 0.63500)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+    $VIA#0_POWER
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component PJ625_J2 (place J2 5.08000 67.31000 front 0))
+  (component PJ625_J3 (place J3 24.13000 67.31000 front 0))
+  (component "TBLOCK-I3_J1" (place J1 -55.88000 57.15000 front 270))
+  (component "TO170P480X1022X2245-5P_U1" (place U1 30.48000 73.66000 front 0))
+  (component DIL08_U2 (place U2 43.18000 73.66000 front 0))
+  (component DIL08_U3 (place U3 30.48000 59.69000 front 0))
+  (component "PRE-SQ1_RV4" (place RV4 83.82000 46.99000 front 180))
+  (component DO41_D1 (place D1 -11.43000 57.15000 front 180))
+  (component DO41_D3 (place D3 -11.43000 50.80000 front 180))
+  (component "ELEC-RAD10_C5" (place C5 -10.16000 45.72000 front 270))
+  (component "ELEC-RAD10_C6" (place C6 44.45000 69.85000 front 180))
+  (component "ELEC-RAD10_C13" (place C13 -17.78000 45.72000 front 270))
+  (component RES40_R3 (place R3 -11.43000 67.31000 front 90))
+  (component RES40_R4 (place R4 6.35000 45.72000 front 180))
+  (component RES40_R7 (place R7 6.35000 49.53000 front 180))
+  (component RES40_R10 (place R10 6.35000 43.18000 front 0))
+  (component RES40_R13 (place R13 20.32000 46.99000 front 180))
+  (component RES40_R14 (place R14 6.35000 95.25000 front 180))
+  (component CAP10_C1 (place C1 67.31000 93.98000 front 270))
+  (component CAP10_C2 (place C2 -25.40000 48.26000 front 270))
+  (component CAP10_C3 (place C3 72.39000 93.98000 front 270))
+  (component CAP10_C10 (place C10 -12.70000 63.50000 front 270))
+  (component CAP10_C15 (place C15 5.08000 92.71000 front 270))
+  (component "PRE-SQ1_RV1" (place RV1 93.98000 93.98000 front 0))
+  (component RES40_R5 (place R5 77.47000 95.25000 front 0))
+  (component "PRE-SQ1_RV2" (place RV2 83.82000 90.17000 front 0))
+  (component "PRE-SQ1_RV3" (place RV3 83.82000 80.01000 front 0))
+  (component DO41_D2 (place D2 -44.45000 86.36000 front 270))
+  (component DO41_D4 (place D4 -36.83000 86.36000 front 270))
+  (component "ELEC-RAD10_C11" (place C11 -31.75000 45.72000 front 270))
+  (component RES40_R11 (place R11 -15.24000 59.69000 front 90))
+  (component "ELEC-RAD10_C12" (place C12 -10.16000 92.71000 front 270))
+  (component RES40_R2 (place R2 -31.75000 85.09000 front 90))
+  (component RES40_R8 (place R8 -45.72000 93.98000 front 0))
+  (component CAP10_C9 (place C9 -48.26000 93.98000 front 180))
+  (component "ELEC-RAD10_C14" (place C14 -13.97000 81.28000 front 90))
+  (component RES40_R12 (place R12 33.02000 46.99000 front 180))
+  (component "ELEC-RAD10_C20" (place C20 71.12000 45.72000 front 270))
+  (component RES40_R23 (place R23 66.04000 46.99000 front 180))
+  (component CAP10_C21 (place C21 50.80000 46.99000 front 180))
+  (component DO35_D5 (place D5 -95.25000 86.36000 front 90))
+  (component DO35_D6 (place D6 -82.55000 96.52000 front 180))
+  (component RES40_R17 (place R17 -91.44000 91.44000 front 0))
+  (component RES40_R18 (place R18 -46.99000 88.90000 front 180))
+  (component TO92/18_Q1 (place Q1 -91.44000 88.90000 front 180))
+  (component CAP10_C18 (place C18 -59.69000 95.25000 front 0))
+  (component RES40_R1 (place R1 87.63000 52.07000 front 180))
+  (component CAP10_C4 (place C4 80.01000 57.15000 front 270))
+  (component RES40_R6 (place R6 81.28000 60.96000 front 90))
+  (component RES40_R9 (place R9 81.28000 74.93000 front 180))
+  (component CAP10_C7 (place C7 87.63000 57.15000 front 180))
+  (component RES40_R15 (place R15 -57.15000 83.82000 front 0))
+  (component RES40_R16 (place R16 -57.15000 80.01000 front 0))
+  (component RES40_R19 (place R19 -35.56000 91.44000 front 180))
+  (component RES40_R20 (place R20 52.07000 95.25000 front 180))
+  (component RES40_R21 (place R21 -26.67000 77.47000 front 270))
+  (component CAP10_C19 (place C19 -33.02000 60.96000 front 90))
+  (component RES40_R22 (place R22 77.47000 82.55000 front 90))
+  (component TO92/18_Q2 (place Q2 -41.91000 63.50000 front 180))
+  (component CAP10_C8 (place C8 77.47000 77.47000 front 90))
+  (component CAP10_C16 (place C16 -74.93000 93.98000 front 180))
+  (component CAP10_C17 (place C17 -29.21000 58.42000 front 270))
+ )
+ (library
+  (image PJ625_J2 (side front)
+   (outline (rect TOP -14.75000 -14.65000 3.35000 20.65000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 -11.40000 0.00000)
+   (pin PS1 (rotate 0) 2 0.00000 6.35000)
+   (pin PS1 (rotate 0) 3 -11.40000 6.35000)
+   (pin PS1 (rotate 0) 4 0.00000 12.70000)
+   (pin PS1 (rotate 0) 5 -11.40000 12.70000)
+  )
+  (image PJ625_J3 (side front)
+   (outline (rect TOP -14.75000 -14.65000 3.35000 20.65000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 -11.40000 0.00000)
+   (pin PS1 (rotate 0) 2 0.00000 6.35000)
+   (pin PS1 (rotate 0) 3 -11.40000 6.35000)
+   (pin PS1 (rotate 0) 4 0.00000 12.70000)
+   (pin PS1 (rotate 0) 5 -11.40000 12.70000)
+  )
+  (image "TBLOCK-I3_J1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 5.08000 0.00000)
+   (pin PS2 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TO170P480X1022X2245-5P_U1" (side front)
+   (outline (rect TOP -2.07500 -1.31500 8.87500 8.77500))
+   (pin PS3 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 1.70000 4.00000)
+   (pin PS4 (rotate 0) 2 3.40000 0.00000)
+   (pin PS4 (rotate 0) 3 5.10000 4.00000)
+   (pin PS4 (rotate 0) 4 6.80000 0.00000)
+  )
+  (image DIL08_U2 (side front)
+   (outline (rect TOP -1.37160 -0.63500 8.99160 8.25500))
+   (pin PS5 (rotate 0) 0 0.00000 0.00000)
+   (pin PS6 (rotate 0) 1 2.54000 0.00000)
+   (pin PS6 (rotate 0) 2 5.08000 0.00000)
+   (pin PS6 (rotate 0) 3 7.62000 0.00000)
+   (pin PS6 (rotate 0) 4 7.62000 7.62000)
+   (pin PS6 (rotate 0) 5 5.08000 7.62000)
+   (pin PS6 (rotate 0) 6 2.54000 7.62000)
+   (pin PS6 (rotate 0) 7 0.00000 7.62000)
+  )
+  (image DIL08_U3 (side front)
+   (outline (rect TOP -1.37160 -0.63500 8.99160 8.25500))
+   (pin PS5 (rotate 0) 0 0.00000 0.00000)
+   (pin PS6 (rotate 0) 1 2.54000 0.00000)
+   (pin PS6 (rotate 0) 2 5.08000 0.00000)
+   (pin PS6 (rotate 0) 3 7.62000 0.00000)
+   (pin PS6 (rotate 0) 4 7.62000 7.62000)
+   (pin PS6 (rotate 0) 5 5.08000 7.62000)
+   (pin PS6 (rotate 0) 6 2.54000 7.62000)
+   (pin PS6 (rotate 0) 7 0.00000 7.62000)
+  )
+  (image "PRE-SQ1_RV4" (side front)
+   (outline (rect TOP -4.54660 -2.00660 4.54660 2.00660))
+   (pin PS7 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+   (pin PS7 (rotate 0) 2 0.00000 0.00000)
+  )
+  (image DO41_D1 (side front)
+   (outline (rect TOP -1.14300 -1.42240 11.30300 1.44780))
+   (pin PS8 (rotate 0) 0 10.16000 0.00000)
+   (pin PS8 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image DO41_D3 (side front)
+   (outline (rect TOP -1.14300 -1.42240 11.30300 1.44780))
+   (pin PS8 (rotate 0) 0 10.16000 0.00000)
+   (pin PS8 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image "ELEC-RAD10_C5" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "ELEC-RAD10_C6" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "ELEC-RAD10_C13" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R3 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R4 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R7 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R10 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R13 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R14 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image CAP10_C1 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CAP10_C2 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CAP10_C3 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CAP10_C10 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CAP10_C15 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "PRE-SQ1_RV1" (side front)
+   (outline (rect TOP -4.54660 -2.00660 4.54660 2.00660))
+   (pin PS7 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+   (pin PS7 (rotate 0) 2 0.00000 0.00000)
+  )
+  (image RES40_R5 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image "PRE-SQ1_RV2" (side front)
+   (outline (rect TOP -4.54660 -2.00660 4.54660 2.00660))
+   (pin PS7 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+   (pin PS7 (rotate 0) 2 0.00000 0.00000)
+  )
+  (image "PRE-SQ1_RV3" (side front)
+   (outline (rect TOP -4.54660 -2.00660 4.54660 2.00660))
+   (pin PS7 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+   (pin PS7 (rotate 0) 2 0.00000 0.00000)
+  )
+  (image DO41_D2 (side front)
+   (outline (rect TOP -1.14300 -1.42240 11.30300 1.44780))
+   (pin PS8 (rotate 0) 0 10.16000 0.00000)
+   (pin PS8 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image DO41_D4 (side front)
+   (outline (rect TOP -1.14300 -1.42240 11.30300 1.44780))
+   (pin PS8 (rotate 0) 0 10.16000 0.00000)
+   (pin PS8 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image "ELEC-RAD10_C11" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R11 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image "ELEC-RAD10_C12" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R2 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R8 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image CAP10_C9 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "ELEC-RAD10_C14" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R12 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image "ELEC-RAD10_C20" (side front)
+   (outline (rect TOP -1.60440 -2.86520 4.12600 2.86520))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R23 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image CAP10_C21 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image DO35_D5 (side front)
+   (outline (rect TOP -0.88900 -1.01600 11.04900 1.01600))
+   (pin PS9 (rotate 0) 0 10.16000 0.00000)
+   (pin PS9 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image DO35_D6 (side front)
+   (outline (rect TOP -0.88900 -1.01600 11.04900 1.01600))
+   (pin PS9 (rotate 0) 0 10.16000 0.00000)
+   (pin PS9 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image RES40_R17 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R18 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image TO92/18_Q1 (side front)
+   (outline (rect TOP -2.64160 -1.37160 2.64160 2.64160))
+   (pin PS10 (rotate 0) 0 -1.27000 0.00000)
+   (pin PS10 (rotate 0) 1 0.00000 1.27000)
+   (pin PS10 (rotate 0) 2 1.27000 0.00000)
+  )
+  (image CAP10_C18 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R1 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image CAP10_C4 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R6 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R9 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image CAP10_C7 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R15 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R16 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R19 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R20 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image RES40_R21 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image CAP10_C19 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image RES40_R22 (side front)
+   (outline (rect TOP -0.88900 -0.88900 11.04900 0.88900))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 10.16000 0.00000)
+  )
+  (image TO92/18_Q2 (side front)
+   (outline (rect TOP -2.64160 -1.37160 2.64160 2.64160))
+   (pin PS10 (rotate 0) 0 -1.27000 0.00000)
+   (pin PS10 (rotate 0) 1 0.00000 1.27000)
+   (pin PS10 (rotate 0) 2 1.27000 0.00000)
+  )
+  (image CAP10_C8 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CAP10_C16 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CAP10_C17 (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS9 (rotate 0) 0 0.00000 0.00000)
+   (pin PS9 (rotate 0) 1 2.54000 0.00000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (rect TOP -1.31000 -1.31000 1.31000 1.31000))
+   (shape (circle I1 2.62000 0 0))
+   (shape (circle I2 2.62000 0 0))
+   (shape (circle I3 2.62000 0 0))
+   (shape (circle I4 2.62000 0 0))
+   (shape (circle I5 2.62000 0 0))
+   (shape (circle I6 2.62000 0 0))
+   (shape (circle I7 2.62000 0 0))
+   (shape (circle I8 2.62000 0 0))
+   (shape (circle I9 2.62000 0 0))
+   (shape (circle I10 2.62000 0 0))
+   (shape (circle I11 2.62000 0 0))
+   (shape (circle I12 2.62000 0 0))
+   (shape (circle I13 2.62000 0 0))
+   (shape (circle I14 2.62000 0 0))
+   (shape (rect BOT -1.31000 -1.31000 1.31000 1.31000))
+  )
+  (padstack PS1 (absolute on)
+   (shape (circle TOP 2.62000 0 0))
+   (shape (circle I1 2.62000 0 0))
+   (shape (circle I2 2.62000 0 0))
+   (shape (circle I3 2.62000 0 0))
+   (shape (circle I4 2.62000 0 0))
+   (shape (circle I5 2.62000 0 0))
+   (shape (circle I6 2.62000 0 0))
+   (shape (circle I7 2.62000 0 0))
+   (shape (circle I8 2.62000 0 0))
+   (shape (circle I9 2.62000 0 0))
+   (shape (circle I10 2.62000 0 0))
+   (shape (circle I11 2.62000 0 0))
+   (shape (circle I12 2.62000 0 0))
+   (shape (circle I13 2.62000 0 0))
+   (shape (circle I14 2.62000 0 0))
+   (shape (circle BOT 2.62000 0 0))
+  )
+  (padstack PS2 (absolute on)
+   (shape (circle TOP 3.04800 0 0))
+   (shape (circle I1 3.04800 0 0))
+   (shape (circle I2 3.04800 0 0))
+   (shape (circle I3 3.04800 0 0))
+   (shape (circle I4 3.04800 0 0))
+   (shape (circle I5 3.04800 0 0))
+   (shape (circle I6 3.04800 0 0))
+   (shape (circle I7 3.04800 0 0))
+   (shape (circle I8 3.04800 0 0))
+   (shape (circle I9 3.04800 0 0))
+   (shape (circle I10 3.04800 0 0))
+   (shape (circle I11 3.04800 0 0))
+   (shape (circle I12 3.04800 0 0))
+   (shape (circle I13 3.04800 0 0))
+   (shape (circle I14 3.04800 0 0))
+   (shape (circle BOT 3.04800 0 0))
+  )
+  (padstack PS3 (absolute on)
+   (shape (rect TOP -1.04000 -1.04000 1.04000 1.04000))
+   (shape (circle I1 2.08000 0 0))
+   (shape (circle I2 2.08000 0 0))
+   (shape (circle I3 2.08000 0 0))
+   (shape (circle I4 2.08000 0 0))
+   (shape (circle I5 2.08000 0 0))
+   (shape (circle I6 2.08000 0 0))
+   (shape (circle I7 2.08000 0 0))
+   (shape (circle I8 2.08000 0 0))
+   (shape (circle I9 2.08000 0 0))
+   (shape (circle I10 2.08000 0 0))
+   (shape (circle I11 2.08000 0 0))
+   (shape (circle I12 2.08000 0 0))
+   (shape (circle I13 2.08000 0 0))
+   (shape (circle I14 2.08000 0 0))
+   (shape (rect BOT -1.04000 -1.04000 1.04000 1.04000))
+  )
+  (padstack PS4 (absolute on)
+   (shape (circle TOP 2.08000 0 0))
+   (shape (circle I1 2.08000 0 0))
+   (shape (circle I2 2.08000 0 0))
+   (shape (circle I3 2.08000 0 0))
+   (shape (circle I4 2.08000 0 0))
+   (shape (circle I5 2.08000 0 0))
+   (shape (circle I6 2.08000 0 0))
+   (shape (circle I7 2.08000 0 0))
+   (shape (circle I8 2.08000 0 0))
+   (shape (circle I9 2.08000 0 0))
+   (shape (circle I10 2.08000 0 0))
+   (shape (circle I11 2.08000 0 0))
+   (shape (circle I12 2.08000 0 0))
+   (shape (circle I13 2.08000 0 0))
+   (shape (circle I14 2.08000 0 0))
+   (shape (circle BOT 2.08000 0 0))
+  )
+  (padstack PS5 (absolute on)
+   (shape (rect TOP -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I1 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I2 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I3 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I4 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I5 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I6 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I7 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I8 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I9 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I10 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I11 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I12 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I13 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I14 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect BOT -0.63500 -0.63500 0.63500 0.63500))
+  )
+  (padstack PS6 (absolute on)
+   (shape (circle TOP 1.27000 0 0))
+   (shape (circle I1 1.27000 0 0))
+   (shape (circle I2 1.27000 0 0))
+   (shape (circle I3 1.27000 0 0))
+   (shape (circle I4 1.27000 0 0))
+   (shape (circle I5 1.27000 0 0))
+   (shape (circle I6 1.27000 0 0))
+   (shape (circle I7 1.27000 0 0))
+   (shape (circle I8 1.27000 0 0))
+   (shape (circle I9 1.27000 0 0))
+   (shape (circle I10 1.27000 0 0))
+   (shape (circle I11 1.27000 0 0))
+   (shape (circle I12 1.27000 0 0))
+   (shape (circle I13 1.27000 0 0))
+   (shape (circle I14 1.27000 0 0))
+   (shape (circle BOT 1.27000 0 0))
+  )
+  (padstack PS7 (absolute on)
+   (shape (circle TOP 2.03200 0 0))
+   (shape (circle I1 2.03200 0 0))
+   (shape (circle I2 2.03200 0 0))
+   (shape (circle I3 2.03200 0 0))
+   (shape (circle I4 2.03200 0 0))
+   (shape (circle I5 2.03200 0 0))
+   (shape (circle I6 2.03200 0 0))
+   (shape (circle I7 2.03200 0 0))
+   (shape (circle I8 2.03200 0 0))
+   (shape (circle I9 2.03200 0 0))
+   (shape (circle I10 2.03200 0 0))
+   (shape (circle I11 2.03200 0 0))
+   (shape (circle I12 2.03200 0 0))
+   (shape (circle I13 2.03200 0 0))
+   (shape (circle I14 2.03200 0 0))
+   (shape (circle BOT 2.03200 0 0))
+  )
+  (padstack PS8 (absolute on)
+   (shape (circle TOP 2.28600 0 0))
+   (shape (circle I1 2.28600 0 0))
+   (shape (circle I2 2.28600 0 0))
+   (shape (circle I3 2.28600 0 0))
+   (shape (circle I4 2.28600 0 0))
+   (shape (circle I5 2.28600 0 0))
+   (shape (circle I6 2.28600 0 0))
+   (shape (circle I7 2.28600 0 0))
+   (shape (circle I8 2.28600 0 0))
+   (shape (circle I9 2.28600 0 0))
+   (shape (circle I10 2.28600 0 0))
+   (shape (circle I11 2.28600 0 0))
+   (shape (circle I12 2.28600 0 0))
+   (shape (circle I13 2.28600 0 0))
+   (shape (circle I14 2.28600 0 0))
+   (shape (circle BOT 2.28600 0 0))
+  )
+  (padstack PS9 (absolute on)
+   (shape (circle TOP 1.77800 0 0))
+   (shape (circle I1 1.77800 0 0))
+   (shape (circle I2 1.77800 0 0))
+   (shape (circle I3 1.77800 0 0))
+   (shape (circle I4 1.77800 0 0))
+   (shape (circle I5 1.77800 0 0))
+   (shape (circle I6 1.77800 0 0))
+   (shape (circle I7 1.77800 0 0))
+   (shape (circle I8 1.77800 0 0))
+   (shape (circle I9 1.77800 0 0))
+   (shape (circle I10 1.77800 0 0))
+   (shape (circle I11 1.77800 0 0))
+   (shape (circle I12 1.77800 0 0))
+   (shape (circle I13 1.77800 0 0))
+   (shape (circle I14 1.77800 0 0))
+   (shape (circle BOT 1.77800 0 0))
+  )
+  (padstack PS10 (absolute on)
+   (shape (circle TOP 1.52400 0 0))
+   (shape (circle I1 1.52400 0 0))
+   (shape (circle I2 1.52400 0 0))
+   (shape (circle I3 1.52400 0 0))
+   (shape (circle I4 1.52400 0 0))
+   (shape (circle I5 1.52400 0 0))
+   (shape (circle I6 1.52400 0 0))
+   (shape (circle I7 1.52400 0 0))
+   (shape (circle I8 1.52400 0 0))
+   (shape (circle I9 1.52400 0 0))
+   (shape (circle I10 1.52400 0 0))
+   (shape (circle I11 1.52400 0 0))
+   (shape (circle I12 1.52400 0 0))
+   (shape (circle I13 1.52400 0 0))
+   (shape (circle I14 1.52400 0 0))
+   (shape (circle BOT 1.52400 0 0))
+  )
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+  (padstack $VIA#0_POWER (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00000"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-0 D1-0 D2-0)
+  )
+  (net "#00002"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-2 D3-0 D4-0)
+  )
+  (net "#00044"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R1-0 C4-1)
+  )
+  (net "#00047"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C12-0 R2-1 R8-0 C9-1)
+  )
+  (net "#00068"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R6-0 R9-0 C7-1)
+  )
+  (net "#00087"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C11-0 R11-0)
+  )
+  (net "#00089"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C14-0 R12-0)
+  )
+  (net "#00094"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C16-1 C17-1)
+  )
+  (net "#00095"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins D6-1 R17-1 R18-1 Q1-0 C18-1 R19-0 C16-0)
+  )
+  (net "#00097"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins D5-1 C18-0 R15-0)
+  )
+  (net "#00098"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins D5-0 Q1-2)
+  )
+  (net "#00099"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins D6-0 Q2-2)
+  )
+  (net "#00100"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R15-1 R16-1 Q2-1)
+  )
+  (net "#00101"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R22-1 Q2-0)
+  )
+  (net "#00104"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R19-1 R20-1 R21-0)
+  )
+  (net "#00106"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R21-1 C19-0)
+  )
+  (net "#00109"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C20-1 R23-0 C21-0)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+    (pins J2-0 J2-1 J3-0 J3-1 U3-5 RV4-0 RV4-2 D1-1 D3-1 RV1-0 RV2-0 RV3-0 R8-1 C20-0
+    R1-1 R22-0)
+  )
+  (net "INPUT_NEG"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-2 J2-3)
+  )
+  (net "INPUT_POS"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-4 J2-5 R3-1 R14-1 C15-1 C12-1 C14-1 R23-1 C21-1)
+  )
+  (net "IN_+_TDA"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U1-0)
+  )
+  (net "IN_-_TDA"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U1-1 R13-0 R12-1)
+  )
+  (net "MID_AC"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-1 C5-1 C13-0)
+  )
+  (net "NEG_1_!"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C8-0)
+  )
+  (net "NEG_1_1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-1 C3-0 R9-1)
+  )
+  (net "NEG_1_2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U3-1)
+  )
+  (net "NEG_2_1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-5 R3-0 C1-0 R2-0)
+  )
+  (net "OUTPUT_BASS"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RV1-2 R6-1)
+  )
+  (net "OUTPUT_MID"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RV2-2 C7-0)
+  )
+  (net "OUTPUT_POS"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J3-4 J3-5 U1-3 R7-0 R10-0 R10-1 R13-1)
+  )
+  (net "OUTPUT_TRBL"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RV3-2 C8-1)
+  )
+  (net "OUT_1_1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-0 C3-1 R5-0 R20-0)
+  )
+  (net "OUT_1_2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U3-0)
+  )
+  (net "OUT_2_1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-6 C1-1)
+  )
+  (net "OUT_2_2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U3-6 RV4-1)
+  )
+  (net "POS_1_2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U3-2)
+  )
+  (net "POS_2_1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-4 R14-0 C15-0 C4-0)
+  )
+  (net "POS_2_2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U1-4 U2-2 U2-3 U3-3 U3-4 C6-1 C13-1 C2-0 C2-1 C11-1 R18-0 C19-1 C17-0)
+  )
+  (net "VCC/VDD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+   (pins D2-1 D4-1)
+  )
+  (net "VCC_1_+"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-7 C9-0)
+  )
+  (net "VCC_2_+"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U3-7 C6-0 R4-0 R17-0 Q1-1 R16-0)
+  )
+  (net "VCC_BASS"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RV1-1 R5-1 RV2-1 RV3-1)
+  )
+  (net "VCC_TDA_-"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J3-2 J3-3 U1-2 C5-0 R4-1 R7-1 C10-0 C10-1 R11-1)
+  )
+  (class POWER
+   "GND"
+   "VCC/VDD"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "#00000"
+   "#00002"
+   "#00044"
+   "#00047"
+   "#00068"
+   "#00087"
+   "#00089"
+   "#00094"
+   "#00095"
+   "#00097"
+   "#00098"
+   "#00099"
+   "#00100"
+   "#00101"
+   "#00104"
+   "#00106"
+   "#00109"
+   "INPUT_NEG"
+   "INPUT_POS"
+   "IN_+_TDA"
+   "IN_-_TDA"
+   "MID_AC"
+   "NEG_1_!"
+   "NEG_1_1"
+   "NEG_1_2"
+   "NEG_2_1"
+   "OUTPUT_BASS"
+   "OUTPUT_MID"
+   "OUTPUT_POS"
+   "OUTPUT_TRBL"
+   "OUT_1_1"
+   "OUT_1_2"
+   "OUT_2_1"
+   "OUT_2_2"
+   "POS_1_2"
+   "POS_2_1"
+   "POS_2_2"
+   "VCC_1_+"
+   "VCC_2_+"
+   "VCC_BASS"
+   "VCC_TDA_-"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+ )
+)
