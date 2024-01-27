@@ -75,57 +75,112 @@
    (shape (circ I14 76200 0 0))
    (shape (circ BOT 76200 0 0))
   )
+  (padstack PS2
+   (shape (circ TOP 400000 0 0))
+   (shape (circ I1 400000 0 0))
+   (shape (circ I2 400000 0 0))
+   (shape (circ I3 400000 0 0))
+   (shape (circ I4 400000 0 0))
+   (shape (circ I5 400000 0 0))
+   (shape (circ I6 400000 0 0))
+   (shape (circ I7 400000 0 0))
+   (shape (circ I8 400000 0 0))
+   (shape (circ I9 400000 0 0))
+   (shape (circ I10 400000 0 0))
+   (shape (circ I11 400000 0 0))
+   (shape (circ I12 400000 0 0))
+   (shape (circ I13 400000 0 0))
+   (shape (circ I14 400000 0 0))
+   (shape (circ BOT 400000 0 0))
+  )
   )
   (network_out
-   (Net #00002 
+   (Net #00000 
    (rule
    )
-   (wire (path TOP 76200  505000 -1225000 825500 -1225000 825500 -1298000
-     1395000 -1298000)
-    (connect (terminal pin J1-0) (terminal pin BR1-2))
+   (wire (path BOT 76200  505000 -1225000 1143000 -1225000 1143000 -1460500
+     2168000 -1460500 2168000 -1260000)
+    (connect (terminal pin J1-0) (terminal pin BR2-3))
    )
    )
-   (Net #00003 
+   (Net #00001 
    (rule
    )
-   (wire (path TOP 76200  505000 -1733000 825500 -1733000 825500 -1679000
-     1395000 -1679000)
-    (connect (terminal pin J1-1) (terminal pin BR1-3))
+   (wire (path TOP 76200  505000 -1733000 1143000 -1733000 1143000 -1768000
+     1660000 -1768000)
+    (connect (terminal pin J1-1) (terminal pin BR2-2))
    )
    )
    (Net VCC/VDD 
    (rule
    )
-   (wire (path TOP 177800  1395000 -917000 1714500 -917000 1714500 -1100000
-     2890000 -1100000)
-    (connect (terminal pin BR1-0) (terminal pin C3-0))
+   (wire (path TOP 177800  1660000 -1260000 1660000 -825500 2667000 -825500
+     2667000 -1105000 3555000 -1105000)
+    (connect (terminal pin BR2-0) (terminal pin C3-0))
    )
-   (wire (path TOP 177800  6410000 -1255000 5778500 -1255000 5778500 -1105000
-     4820000 -1105000)
-    (connect (terminal pin J2-0) (terminal pin C4-0))
+   (wire (path BOT 177800  5670000 -1105000 5670000 -1110000 5543000 -1130000
+     3682000 -1130000 3555000 -1105000)
+    (connect (terminal pin C4-0) (terminal pin C3-0))
+    (type protect)
    )
-   (wire (path TOP 177800  2890000 -1100000 4127500 -1100000 4132500 -1105000
-     4820000 -1105000)
-    (connect (terminal pin C3-0) (terminal pin C4-0))
-    (attr bus)
+   (wire (path BOT 177800  7145000 -1105000 6045000 -1105000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 177800  6045000 -1105000 5670000 -1105000)
+    (connect (terminal wire) (terminal pin C4-0))
+    (type protect)
+   )
+   (wire (path BOT 177800  5670000 -1105000 4820000 -1105000)
+    (connect (terminal pin C4-0) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path BOT 177800  7295000 -1255000 7145000 -1105000)
+    (connect (terminal pin J2-0) (terminal wire))
+    (type protect)
    )
    )
    (Net VEE 
    (rule
    )
-   (wire (path BOT 177800  1395000 -2060000 1714500 -2060000 1714500 -1862000
-     2890000 -1862000)
-    (connect (terminal pin BR1-1) (terminal pin C3-1))
+   (wire (path TOP 177800  2168000 -1768000 2413000 -1768000 2413000 -1867000
+     3555000 -1867000)
+    (connect (terminal pin BR2-1) (terminal pin C3-1))
    )
-   (wire (path TOP 177800  6410000 -1763000 5461000 -1763000 5461000 -1867000
-     4820000 -1867000)
-    (connect (terminal pin J2-1) (terminal pin C4-1))
+   (wire (path BOT 177800  4820000 -1867000 4820000 -1872000 3682000 -1872000
+     3555000 -1867000)
+    (connect (terminal wire) (terminal pin C3-1))
+    (type protect)
    )
-   (wire (path TOP 177800  2890000 -1862000 3238500 -1862000 3243500 -1867000
-     4820000 -1867000)
-    (connect (terminal pin C3-1) (terminal pin C4-1))
-    (attr bus)
+   (wire (path BOT 177800  7191000 -1867000 5670000 -1867000)
+    (connect (terminal wire) (terminal pin C4-1))
+    (type protect)
    )
+   (wire (path BOT 177800  4820000 -1867000 5670000 -1867000)
+    (connect (terminal wire) (terminal pin C4-1))
+    (type protect)
+   )
+   (wire (path BOT 177800  7295000 -1763000 7191000 -1867000)
+    (connect (terminal pin J2-1) (terminal wire))
+    (type protect)
+   )
+   )
+   (Net {NC-1} 
+   (via PS2 405000 -390000 (net {NC-1} )
+    (type protect))
+   )
+   (Net {NC-2} 
+   (via PS2 405000 -2605000 (net {NC-2} )
+    (type protect))
+   )
+   (Net {NC-3} 
+   (via PS2 7610000 -2600000 (net {NC-3} )
+    (type protect))
+   )
+   (Net {NC-4} 
+   (via PS2 7600000 -400000 (net {NC-4} )
+    (type protect))
    )
   )
  )

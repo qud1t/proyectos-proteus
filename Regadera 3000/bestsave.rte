@@ -58,181 +58,277 @@
    (shape (circ BOT 76200 0 0))
   )
   (padstack $VIA#0_POWER
-   (shape (circ TOP 76200 0 0))
-   (shape (circ I1 76200 0 0))
-   (shape (circ I2 76200 0 0))
-   (shape (circ I3 76200 0 0))
-   (shape (circ I4 76200 0 0))
-   (shape (circ I5 76200 0 0))
-   (shape (circ I6 76200 0 0))
-   (shape (circ I7 76200 0 0))
-   (shape (circ I8 76200 0 0))
-   (shape (circ I9 76200 0 0))
-   (shape (circ I10 76200 0 0))
-   (shape (circ I11 76200 0 0))
-   (shape (circ I12 76200 0 0))
-   (shape (circ I13 76200 0 0))
-   (shape (circ I14 76200 0 0))
-   (shape (circ BOT 76200 0 0))
+   (shape (circ TOP 177800 0 0))
+   (shape (circ I1 177800 0 0))
+   (shape (circ I2 177800 0 0))
+   (shape (circ I3 177800 0 0))
+   (shape (circ I4 177800 0 0))
+   (shape (circ I5 177800 0 0))
+   (shape (circ I6 177800 0 0))
+   (shape (circ I7 177800 0 0))
+   (shape (circ I8 177800 0 0))
+   (shape (circ I9 177800 0 0))
+   (shape (circ I10 177800 0 0))
+   (shape (circ I11 177800 0 0))
+   (shape (circ I12 177800 0 0))
+   (shape (circ I13 177800 0 0))
+   (shape (circ I14 177800 0 0))
+   (shape (circ BOT 177800 0 0))
+  )
+  (padstack PS4
+   (shape (circ TOP 450000 0 0))
+   (shape (circ I1 450000 0 0))
+   (shape (circ I2 450000 0 0))
+   (shape (circ I3 450000 0 0))
+   (shape (circ I4 450000 0 0))
+   (shape (circ I5 450000 0 0))
+   (shape (circ I6 450000 0 0))
+   (shape (circ I7 450000 0 0))
+   (shape (circ I8 450000 0 0))
+   (shape (circ I9 450000 0 0))
+   (shape (circ I10 450000 0 0))
+   (shape (circ I11 450000 0 0))
+   (shape (circ I12 450000 0 0))
+   (shape (circ I13 450000 0 0))
+   (shape (circ I14 450000 0 0))
+   (shape (circ BOT 450000 0 0))
   )
   )
   (network_out
-   (Net #00054 
+   (Net #00010 
    (rule
    )
-   (wire (path BOT 25400  254000 -1016000 254000 -5207000)
-    (connect (terminal pin J2-14) (terminal pin R2-1))
+   (wire (path TOP 76200  -3085000 2924000 -3595000 2924000 -3595000 3656000)
+    (connect (terminal pin Q1-1) (terminal pin J7-1))
+   )
+   (wire (path TOP 76200  -2605000 2925000 -2605000 2924000 -3085000 2924000)
+    (connect (terminal pin D1-0) (terminal pin Q1-1))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 76200  -3100000 1334000 -3100000 -2984500 -3361000 -2984500
+     -3361000 -3549000)
+    (connect (terminal pin R3-0) (terminal pin J1-4))
+   )
+   )
+   (Net #00027 
+   (rule
+   )
+   (wire (path BOT 76200  -3085000 2670000 -3100000 2670000 -3100000 2350000)
+    (connect (terminal pin Q1-0) (terminal pin R3-1))
+   )
+   )
+   (Net 3.3VCC 
+   (rule
+   )
+   (wire (path TOP 76200  -3615000 515000 -3615000 -932912 40000 -932912
+     40000 -3292000)
+    (connect (terminal pin J1-0) (terminal pin J5-3))
+   )
+   (wire (path BOT 70000  40000 -3292000 40000 -3280000)
+    (connect (terminal pin J5-3) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  40000 -3292000 40000 -3225000 40000 -3240000
+     40000 -3280000)
+    (connect (terminal pin J5-3) (terminal wire))
+    (type protect)
+   )
+   )
+   (Net ADC 
+   (rule
+   )
+   (wire (path BOT 76200  4046000 -4958600 4046000 -1545000 3506000 -1005000)
+    (connect (terminal wire) (terminal pin J2-3))
+    (type protect)
+   )
+   (wire (path BOT 76200  3785000 -5051000 3953600 -5051000 4046000 -4958600)
+    (connect (terminal pin J8-2) (terminal wire))
+    (type protect)
    )
    )
    (Net BT_RXD 
    (rule
    )
-   (wire (path TOP 25400  -1397000 -2667000 1143000 -2667000 1143000 -1270000
-     1270000 -1270000 1270000 -1016000)
-    (connect (terminal pin J4-2) (terminal pin J2-22))
+   (wire (path TOP 76200  2916674 -2730500 2916674 -2755500 3279500 -2755500
+     3506000 -2529000)
+    (connect (terminal wire) (terminal pin J2-5))
+    (type protect)
+   )
+   (wire (path TOP 76200  2433326 -2730500 2522600 -2819773 2522600 -2975389
+     2611874 -3064662 2738126 -3064662 2827400 -2975389 2827400 -2819773
+     2916674 -2730500)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 76200  2370200 -2730500 2433326 -2730500)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 76200  2234000 -2420000 2234000 -2594300 2370200 -2730500)
+    (connect (terminal pin J6-4) (terminal wire))
+    (type protect)
    )
    )
    (Net BT_TXD 
    (rule
    )
-   (wire (path TOP 25400  -1397000 -3175000 1524000 -3175000 1524000 -1016000)
-    (connect (terminal pin J4-3) (terminal pin J2-24))
-   )
-   )
-   (Net DAC 
-   (rule
+   (wire (path TOP 76200  1980000 -2420000 1985000 -2318400 1985000 -2102000
+     2140000 -1947000 3178000 -1947000 3506000 -2275000)
+    (connect (terminal pin J6-3) (terminal pin J2-4))
+    (type protect)
    )
    )
    (Net ECHO 
    (rule
    )
-   (wire (path TOP 25400  1651000 127000 1651000 704397 2540000 704397
-     2540000 1016000)
-    (connect (terminal pin J1-33) (terminal pin J3-2))
+   (wire (path BOT 76200  -3595000 1761000 -3937000 1761000 -3937000 -2476500
+     -3615000 -2476500 -3615000 -3041000)
+    (connect (terminal pin J3-2) (terminal pin J1-2))
+   )
+   )
+   (Net EN 
+   (rule
    )
    )
    (Net GND 
    (rule
    )
-   (wire (path BOT 25400  2222500 -1968500 381000 -1968500 381000 -889000
-     -1143000 -889000)
-    (connect (terminal via) (terminal wire))
+   (wire (path BOT 70000  3302000 444500 3302000 5690000 738000 5690000)
+    (connect (terminal wire) (terminal pin J10-0))
    )
-   (wire (path BOT 25400  3302000 -762000 3175000 -762000 3175000 -1968500
-     2222500 -1968500)
-    (connect (terminal pin J2-39) (terminal via))
+   (wire (path BOT 70000  -3085000 3178000 -3085000 3746500 -2921000 3746500
+     -2921000 4762500 -2645000 4762500 -2645000 5361000)
+    (connect (terminal pin Q1-2) (terminal pin J9-1))
    )
-   (wire (path BOT 25400  3048000 1016000 3048000 698500 3302000 698500
-     3302000 -762000)
-    (connect (terminal pin J3-3) (terminal pin J2-39))
+   (wire (path BOT 70000  -3595000 1507000 -3365500 1507000 -3365500 3178000
+     -3085000 3178000)
+    (connect (terminal pin J3-3) (terminal pin Q1-2))
    )
-   (wire (path BOT 25400  -1143000 -889000 -1143000 -1841500 -1397000 -1841500
-     -1397000 -2159000)
-    (connect (terminal wire) (terminal pin J4-1))
+   (wire (path BOT 70000  3365500 -4318000 3365500 -2984500 3302000 -2984500
+     3302000 -2603500)
+    (connect (terminal wire) (terminal wire))
    )
-   (wire (path TOP 25400  1715000 -1998000 1715000 -2222500 1905000 -2222500)
-    (connect (terminal smd D1-5) (terminal wire))
+   (wire (path BOT 70000  3365500 -4318000 3365500 -4307000 3760000 -4307000)
+    (connect (terminal wire) (terminal pin J2-6))
    )
-   (wire (path TOP 25400  2095000 -1998000 2095000 -2222500 1905000 -2222500)
-    (connect (terminal smd D1-1) (terminal wire))
+   (wire (path TOP 70000  -1755000 5381000 738000 5381000 738000 5690000)
+    (connect (terminal pin C1-1) (terminal pin J10-0))
    )
-   (wire (path BOT 25400  -1270000 -762000 -1143000 -762000 -1143000 -889000)
-    (connect (terminal pin J2-3) (terminal wire))
+   (wire (path BOT 70000  1726000 -2420000 1726000 -2603500 3302000 -2603500)
+    (connect (terminal pin J6-2) (terminal wire))
    )
-   (wire (path BOT 25400  3040380 2667000 3048000 2667000 3048000 1016000)
-    (connect (terminal pin J5-1) (terminal pin J3-3))
+   (wire (path BOT 70000  3302000 444500 3760000 444500 3760000 265000)
+    (connect (terminal wire) (terminal pin J2-1))
    )
-   (wire (path TOP 25400  2222500 -1968500 2222500 -1998000 2095000 -1998000)
-    (connect (terminal via) (terminal smd D1-1))
-    (attr fanout)
+   (wire (path BOT 70000  3785000 -5305000 3365500 -5305000 3365500 -4318000)
+    (connect (terminal pin J8-1) (terminal wire))
    )
-   (wire (path TOP 25400  1905000 -2222500 1905000 -1998000)
-    (connect (terminal wire) (terminal smd D1-3))
-    (attr fanout)
+   (wire (path BOT 70000  3302000 -2603500 3302000 444500)
+    (connect (terminal wire) (terminal wire))
    )
-   (via $VIA#0_POWER 2222500 -1968500
-    (attr fanout))
-   )
-   (Net I2C_SCL 
-   (rule
-   )
-   (wire (path BOT 25400  127000 -127000 -7620 -127000 -7620 3810000)
-    (connect (terminal pin J1-20) (terminal pin J6-1))
-   )
-   )
-   (Net I2C_SDA 
-   (rule
-   )
-   (wire (path BOT 25400  -127000 -127000 -254000 -127000 -254000 3492500
-     -508000 3492500 -508000 3810000)
-    (connect (terminal pin J1-18) (terminal pin J6-0))
+   (wire (path TOP 70000  -1755000 5381000 -1968500 5381000 -1988500 5361000
+     -2645000 5361000)
+    (connect (terminal pin C1-1) (terminal pin J9-1))
+    (attr bus)
    )
    )
    (Net K_B 
    (rule
    )
-   (wire (path TOP 25400  1651000 -1778000 2095000 -1778000 2095000 -1558000)
-    (connect (terminal via) (terminal smd D1-0))
+   (wire (path TOP 76200  40000 -4308000 -508000 -4308000 -508000 -4311000
+     -3361000 -4311000)
+    (connect (terminal pin J5-0) (terminal pin J1-7))
    )
-   (wire (path BOT 25400  1905000 127000 1778000 127000 1778000 -381000
-     1651000 -381000 1651000 -1778000)
-    (connect (terminal pin J1-35) (terminal via))
-   )
-   (via $VIA#0_SIGNAL 1651000 -1778000)
    )
    (Net K_G 
    (rule
    )
-   (wire (path TOP 25400  2413000 127000 2286000 127000 2286000 -527729
-     1905000 -527729 1905000 -1143000 1715000 -1143000 1715000 -1558000)
-    (connect (terminal pin J1-39) (terminal smd D1-4))
+   (wire (path TOP 76200  40000 -4054000 40000 -4057000 -3361000 -4057000)
+    (connect (terminal pin J5-1) (terminal pin J1-6))
    )
    )
    (Net K_R 
    (rule
    )
-   (wire (path TOP 25400  1905000 -1270000 1905000 -1558000)
-    (connect (terminal via) (terminal smd D1-2))
+   (wire (path TOP 76200  40000 -3800000 -508000 -3800000 -508000 -3803000
+     -3361000 -3803000)
+    (connect (terminal pin J5-2) (terminal pin J1-5))
    )
-   (wire (path BOT 25400  2159000 127000 2032000 127000 2032000 -484433
-     1905000 -484433 1905000 -1270000)
-    (connect (terminal pin J1-37) (terminal via))
-   )
-   (via $VIA#0_SIGNAL 1905000 -1270000)
    )
    (Net RESET 
+   (rule
+   )
+   )
+   (Net STATE 
    (rule
    )
    )
    (Net TRIGGER 
    (rule
    )
-   (wire (path BOT 25400  1397000 127000 1397000 742310 2032000 742310
-     2032000 1016000)
-    (connect (terminal pin J1-31) (terminal pin J3-1))
+   (wire (path BOT 76200  -3595000 2015000 -4127500 2015000 -4127500 -3295000
+     -3615000 -3295000)
+    (connect (terminal pin J3-1) (terminal pin J1-3))
    )
    )
    (Net VCC/VDD 
    (rule
    )
-   (wire (path TOP 25400  -381000 -127000 -381000 0 1524000 0
-     1524000 1016000)
-    (connect (terminal pin J1-16) (terminal pin J3-0))
+   (wire (path BOT 70000  1472000 -2420000 1472000 -217612 230000 -217612
+     230000 5690000)
+    (connect (terminal pin J6-1) (terminal pin J10-1))
    )
-   (wire (path BOT 25400  1524000 1016000 1524000 2667000 2540000 2667000)
-    (connect (terminal pin J3-0) (terminal pin J5-0))
+   (wire (path BOT 70000  3785000 -5559000 1472000 -5559000 1472000 -2420000)
+    (connect (terminal pin J8-0) (terminal pin J6-1))
    )
-   (wire (path TOP 25400  -1524000 -762000 -1524000 -544848 -381000 -544848
-     -381000 -127000)
-    (connect (terminal pin J2-1) (terminal pin J1-16))
+   (wire (path TOP 70000  230000 5690000 -190500 5690000 -190500 5635000
+     -1755000 5635000)
+    (connect (terminal pin J10-1) (terminal pin C1-0))
    )
-   (wire (path BOT 25400  -1397000 -1651000 -1397000 -762000 -1524000 -762000)
-    (connect (terminal pin J4-0) (terminal pin J2-1))
+   (wire (path TOP 70000  -2605000 3941000 -3175000 3941000 -3175000 3910000
+     -3595000 3910000)
+    (connect (terminal pin D1-1) (terminal pin J7-0))
+   )
+   (wire (path TOP 70000  -2645000 5615000 -2413000 5615000 -2413000 5635000
+     -1755000 5635000)
+    (connect (terminal pin J9-0) (terminal pin C1-0))
+   )
+   (wire (path BOT 152400  -2605000 3941000 -2290000 4256000 -2290000 5428500
+     -2476500 5615000 -2645000 5615000)
+    (connect (terminal pin D1-1) (terminal pin J9-0))
+    (type protect)
+   )
+   (wire (path BOT 152400  -3595000 2269000 -3937000 2611000 -3937000 3739000)
+    (connect (terminal pin J3-0) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 152400  -3937000 3739000 -3766000 3910000 -3595000 3910000)
+    (connect (terminal wire) (terminal pin J7-0))
+    (type protect)
    )
    )
    (Net WAKEUP 
    (rule
    )
+   )
+   (Net {NC-1} 
+   (via PS4 -3825000 -6410000 (net {NC-1} )
+    (type protect))
+   )
+   (Net {NC-2} 
+   (via PS4 3815000 -6400000 (net {NC-2} )
+    (type protect))
+   )
+   (Net {NC-3} 
+   (via PS4 -3835000 6405000 (net {NC-3} )
+    (type protect))
+   )
+   (Net {NC-4} 
+   (via PS4 3805000 6395000 (net {NC-4} )
+    (type protect))
    )
   )
  )
